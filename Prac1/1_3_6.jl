@@ -1,6 +1,7 @@
 using WAV
 using TickTock
 using Plots
+using Statistics
 using PlotlyJS
 plotlyjs()
 
@@ -71,8 +72,5 @@ println("The built in package gives: ")
 tick()
 Statistics.cor(whiteNoise1, whiteNoise2)
 tock()
-
-fig = plot([whiteNoise1,whiteNoise2])
-display(fig)
 
 

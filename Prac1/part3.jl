@@ -69,3 +69,5 @@ xaxis!("Number Generated")
 display(p1)
 
 corr(whiteNoise, whiteNoiseForLoop)
+
+Statistics.cor(whiteNoise, whiteNoiseForLoop)

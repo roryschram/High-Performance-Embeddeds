@@ -18,9 +18,9 @@ function createwhiten(n)
     return whiteNoise;
 end
 
-tick()
+#tick()
 whiteNoise = createwhiten(numberOfSeconds)
-tock()
+#tock()
 
 p1 = Plots.histogram(whiteNoise)
 title!("Random Number Distrobution")
